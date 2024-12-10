@@ -1,0 +1,24 @@
+/* Style the dropdown menu background */
+.Select-menu-outer, .dropdown-menu {
+    background-color: #444 !important; /* Set menu background to black */
+    color: white !important;           /* Set text color to white */
+    border: 1px solid #444;            /* Add a subtle border for clarity */
+}
+
+/* Style the dropdown options (menu items) */
+.Select-option, .dropdown-item {
+    background-color: black !important; /* Ensure options also have a black background */
+    color: white !important;            /* Set text color to white */
+    padding: 10px;                      /* Add padding for better readability */
+}
+
+/* Add a hover effect for menu items */
+.Select-option:hover, .dropdown-item:hover {
+    background-color: #444 !important;  /* Dark gray background on hover */
+    color: white !important;            /* Keep text white on hover */
+}
+
+/* Ensure the selected option (when visible in the dropdown) is also white */
+.Select-value-label {
+    color: white !important;           /* White text for selected value */
+}
